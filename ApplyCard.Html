@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* information about apply card */
+        .card{
+            width: 505px;
+            height: 450px;
+            /* background-color: blue; */
+            border-radius: 23px;
+            border: 2px solid #9aeb9a;
+            background-color: rgb(255, 255, 255);  
+        }
+        .Card_Head{
+            font-family: Public Sans;
+            color: #4B9960;
+            font-size: 24px;
+            font-weight: 500;
+            margin-top: 20px;
+            margin-left: 70px;;
+        }
+        .CardContainer{
+            display: flex;
+            margin-left: 10%;
+        }
+        .card_icon{
+            display: grid;
+            grid-template-rows: auto auto auto auto auto;
+            gap: 10px 20px;
+            margin: 10px;
+        }
+        .card_icon>div{
+            width: auto;
+            height: 20px;
+            font-size: 16px;
+            margin-left: 10%;
+            gap: 5%;
+        }
+        .card_text{
+           
+            display: grid;
+            grid-template-rows: auto auto auto auto auto;
+            gap: 10px 20px;
+            margin: 10px;
+            margin-top: -10px;   
+        }
+        .Gcard_text>p{
+            width: auto;
+            height: 20px;
+            font-size: 16px;
+            margin-left: 10px;
+            gap: 5%;
+            justify-content: center;
+        }
+        /* Message button design */
+        .myButton{
+            font-size: 16px;
+            border-radius: 14px;
+            border: #dfd2d2;
+            color: aliceblue;
+            background-color:#4B9960;
+            width: 406px;
+            height: 67px;
+            margin-left :40px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="card">
+        <p class="Card_Head">Get in Touch With Us</p>
+        <div class="CardContainer">
+        <div  class= "card_icon"> 
+           <img src="/SVG/HumanICon.svg">
+           <img src="/SVG/EmailIcon.svg">
+           <img src="/SVG/PhoneIcon.svg">
+           <img src="/SVG/Location.svg">
+        </div>
+        <div  class= "card_text"> 
+            <p>San Visal</p>
+            <p>sanvisal2302@gmail.com</p>
+            <p>+855 86 42 22 64</p>
+            <p>2972 Westheimer Rd. Santa Ana, Illinois 85486 </p>
+         </div>
+    </div>
+        <button class="myButton">Message</button>
+    </div>
+    
+</body>
+</html>

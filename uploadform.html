@@ -1,0 +1,289 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins&family=Public+Sans:wght@500&family=Roboto+Mono:wght@500&family=Roboto:wght@500&display=swap');
+
+        .Container{
+            width: 1030px;
+            height: 100vh;
+            /* background-color: aqua; */
+            margin: auto;
+        }
+        /* Top of Uploard page */
+        .Top{
+            width: 100%;
+            height: 30%;
+            /* background-color: blue;     */
+        }
+        .profile{
+            width: 350px;
+            height: 350px;
+            flex-direction: column;
+            display: flex;
+            align-items: center;
+            /* background-color: aqua; */
+            margin: auto;
+            justify-content: center;
+
+        }
+        .Top_text{
+            font-size: 24px;
+            font-family: Public Sans;
+            text-align: center;
+            align-self:center; 
+        }
+        .profile_Icon{
+            width: 150px;
+            height: 150px;
+            border-radius: 50px;
+        }
+        /* Button Edit on profile */
+        .profile_Upload{
+            color: white;
+            font-size: 16px;
+            width: 100px;
+            height: 30px;
+            background-color: black;
+            border-radius: 14px;
+            margin: 5px;
+
+        }
+        /* set at Mindle page */
+        .Mindle{
+            width:100%;
+            height: 40%;
+            /* background-color: rgb(249, 224, 224); */
+        }
+        .Mindle_left{
+            width: 50%;
+            height: 100%;
+            /* background-color: red; */
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            /* background-color: blueviolet; */
+            float: left;
+        }
+       
+        .Mindle_left-CompanyName{     /* Set for label form in class mindle -left  */
+            font-family: Public Sans;
+            font-size: 16px;     
+        }
+        .Mindle_left-Companysalary{
+            font-family: Public Sans;
+            font-size: 16px; 
+        }
+        .Mindle_left-Companyplace{
+            font-family: Public Sans;
+            font-size: 16px;
+        }
+        .Mindle_left-CompanyLocation{
+            font-family: Public Sans;
+            font-size: 16px;
+        }
+         /* end Set for label form in class mindle -left  */
+         /* Set for input form in class mindle -left  */
+        .Mindle_left-CompanyName-input{
+            font-family: Public Sans;
+            font-size: 14px;
+            width: 505px;
+            height: 50px;
+            border-radius: 12px;
+            
+
+        }
+        .Mindle_left-Companysalary-input{
+            font-family: Public Sans;
+            font-size: 14px;
+            width: 505px;
+            height: 50px;
+            border-radius: 12px;
+        }
+        .Mindle_left-Companyplace-input{
+            font-family: Public Sans;
+            font-size: 14px;
+            width: 505px;
+            height: 50px;
+            border-radius: 12px;
+        }
+        .Mindle_left-CompanyLocation-input{
+            font-family: Public Sans;
+            font-size: 14px;
+            width: 505px;
+            height: 50px;
+            border-radius: 12px;
+        }
+
+        .Mindle_rigth{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            width: 50%;
+            height: 100%;
+            /* background-color: chocolate; */
+            float: right;
+        }
+        .Mindle_rigth-Companyposition{     /* Set for label form in class mindle -rigth  */
+            font-family: Public Sans;
+            font-size: 16px;     
+        }
+        .Mindle_rigth-CompanyEmploment{
+            font-family: Public Sans;
+            font-size: 16px; 
+        }
+        .Mindle_rigth-CompanyDuration{
+            font-family: Public Sans;
+            font-size: 16px;
+        }
+        .Mindle_rigth-CompanyDeadline{
+            font-family: Public Sans;
+            font-size: 16px;
+        }
+         /* end Set for label form in class mindle -rigth  */
+         /* Set for input form in class mindle -rigth  */
+        .Mindle_rigth-Companyposition-input{
+            font-family: Public Sans;
+            font-size: 14px;
+            width: 505px;
+            height: 50px;
+            border-radius: 12px;
+        }
+        .Mindle_rigth-CompanyEmploment-input{
+            font-family: Public Sans;
+            font-size: 14px;
+            width: 505px;
+            height: 50px;
+            border-radius: 12px;
+        }
+        .Mindle_rigth-CompanyDuration-input{
+            font-family: Public Sans;
+            font-size: 14px;
+            width: 505px;
+            height: 50px;
+            border-radius: 12px;
+        }
+        .Mindle_rigth-CompanyDeadline-input{
+            font-family: Public Sans;
+            font-size: 14px;
+            width: 505px;
+            height: 50px;
+            border-radius: 12px;
+            margin-bottom: -30px;
+        }
+        /* end Set for input form in class mindle -rigth  */
+        .Tail{
+            width: 100%;
+            height:35%;
+            /* background-color: chartreuse; */
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        /*  set label for tail */
+        .Description{
+            font-size: 16px;
+            font-family: Public Sans;
+        }
+        .Requirrement{
+            font-size: 16px;
+            font-family: Public Sans;
+        }
+        /* set Text area */
+        .Description_area{
+            font-size: 16px;
+            font-family: Public Sans;
+            width: 99%;
+            height: 141px;
+            border-radius: 12px;
+            font-size: 14px;
+        }
+        .Requirrement_area{
+            font-size: 16px;
+            font-family: Public Sans;
+            width: 99%;
+            height: 141px;
+            border-radius: 12px;
+            font-size: 14px;
+        }
+         /* end set Text area */
+         /* Set Button on tail of page */
+         .ControButton{
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            width: 610px;
+            height: 15%;
+            /* background-color: blue; */
+            float: right; 
+         }
+         .ControlButton_Cancel{
+            width: 295px;
+            height: 57px;
+            border:2px solid red;
+            border-radius: 18px;
+         }
+         .ControlButton_Postnow{
+            color: white;
+            width: 295px;
+            height: 57px;
+            border-radius: 18px;
+            background-color: #4B9960;
+         }
+
+    </style>
+</head>
+<body>
+    <div class="Container">
+        <div class="Top">
+            <div class="profile">
+                <P class="Top_text">Post New Job</P>
+                <img class="profile_Icon" src="SVG/man.svg">
+                <button class="profile_Upload">Upload</button>
+            </div>
+        </div>
+        <div class="Mindle">
+            <div class="Mindle_left">
+                <!-- <div class="Mindle_left_From"> -->
+                    <!-- <label class="Mindle_left-CompanyName">Company Name</label> -->
+                    <label class="Mindle_left-CompanyName" for="inputField">Company Name</label>
+                    <input type="text" class="Mindle_left-CompanyName-input" name="inputField" required>
+                    <label class="Mindle_left-Companysalary" for="inputField">Salary</label>
+                    <input type="text" class="Mindle_left-Companysalary-input" name="inputField" required>
+                    <label class="Mindle_left-Companyplace" for="inputField">Work Place</label>
+                    <input type="text" class="Mindle_left-Companyplace-input" name="inputField" required>
+                    <label class="Mindle_left-CompanyLocation" for="inputField">Location</label>
+                    <input type="text" class="Mindle_left-CompanyLocation-input" name="inputField" required>
+                <!-- </div> -->
+            </div>
+            <div class="Mindle_rigth">
+                    <label class="Mindle_rigth-Companyposition" for="inputField">Position</label>
+                    <input type="text" class="Mindle_rigth-Companyposition-input" name="inputField" required>
+                    <label class="Mindle_rigth-CompanyEmploment" for="inputField">Emploment</label>
+                    <input type="text" class="Mindle_rigth-CompanyEmploment-input" name="inputField" required>
+                    <label class="Mindle_rigth-CompanyDuration" for="inputField">Duration</label>
+                    <input type="text" class="Mindle_rigth-CompanyDuration-input" name="inputField" required>
+                    <label class="Mindle_rigth-CompanyDeadline-input" for="inputField">DaedLine</label>
+                    <input type="text" class="Mindle_rigth-CompanyDuration-input" name="inputField" required>
+                    
+            </div>
+        </div>
+        <div class="Tail">
+            <label class="Description" for="inputField"> Description</label>
+            <!-- <textarea class="Description_area" name="message" rows="4" cols="50" placeholder="Typing something here....."></textarea> -->
+            <textarea class="Description_area" name="inputField" rows="4" cols="50" placeholder="Typing something here..."></textarea>
+            <label class="Requirrement" for="inputField"> Description</label>
+            <textarea class="Requirrement_area" name="inputField" rows="4" cols="50" placeholder="Typing something here..."></textarea>
+        </div>
+        <div class="ControButton">
+            <button class="ControlButton_Cancel">Cancel</button>
+            <button class="ControlButton_Postnow">Post Now</button>
+        </div>
+
+    </div>
+</body>
+</html>

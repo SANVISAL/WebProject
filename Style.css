@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins&family=Public+Sans:wght@500&family=Roboto+Mono:wght@500&family=Roboto:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    height: 100vh;
+    background-color: rgb(224, 212, 212);
+    margin: auto;
+    
+}
+/* Parent Class*/
+.parent-card {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+/* All detail in card 1*/
+.card1 {
+    margin-top: 50px;
+    margin-left: 25px ;
+    width: 45%;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 14px;
+}
+.Favorite{
+    width: 20px;
+    height: 20px;
+    margin-top: 25px;
+    margin-left: 400px;
+}
+/* Set Name Company*/
+.Teslaname{
+    width: 100%;
+    height: 30%;
+    /* background-color: blueviolet; */
+    display: flex;
+}
+.logo1{
+    width: 70px;
+    height: 70px;
+    border-radius: 14px;
+    object-fit: cover;
+    margin: 20px;
+}
+.Teslacampany{
+    color: black;
+    /* background-color: blue; */
+    font-family:Public Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 20px;
+}
+.People{
+    width: 168px;
+    font-family:Public Sans;
+    font-size: 18px;
+    font-style: normal;
+}
+/* Set Job requirment*/
+.CombineText{
+width: 100%;
+/* background-color: blueviolet; */
+height: 70%;
+display: flex;
+}
+/* Job Detail */
+.Jobname{
+    font-family: Public Sans;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.text{
+    width: 50%;
+    /* background-color: blue; */
+    height: 100%;
+}
+.Money{
+    color:  #4B9960;
+    font-size: 12px;
+    font-family: Public Sans;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.Emploment{
+    font-family: Public Sans;
+    font-size: 14px;
+    margin:20px;
+}
+.WorkIcon{
+    width: 20px;
+    height: 20px;
+    margin-left:20px ;
+}
+.Date{
+    font-size: 12px;
+    margin-left: 45px;
+    font-weight: 400;
+    font-family: Public Sans;
+    margin-top: -19px;
+}
+
+.SetLocation{
+    width: 50%;
+    height: 100%;
+   
+}
+.Location{
+    font-size: 14px;
+    font-family: Public Sans;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.LocationIcon{
+    width: 20px;
+    height: 20px;
+    margin-top: 8px;
+}
+.Phnom_Penh{
+    font-size: 12px;
+    font-family: Public Sans;
+    font-weight: 400;
+    margin-left:25px;
+    margin-top: -20px;
+}
+.DeadLine{
+    font-size: 14px;
+    font-family: Public Sans;
+    margin-top: 23px;
+}
+.CalanderiCon{
+    width: 20px;
+    height: 20px;
+    margin-top:20px ;
+}
+.time{
+    font-size: 12px;
+    font-family: Public Sans;
+    font-weight: 400;
+    margin-left:25px ;
+    margin-top: -18px;
+}
+
+/* End card 1*/
+.card2{
+    margin: 50px;
+    margin-right: 25px ;
+    width:45%;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 14px;
+}
+.line{
+    width: 100%;
+    height: 20%;
+    color:  red;
+
+}
+/* copy */
+footer {
+    object-fit: cover;
+    
+    height: 200px;
+    background-color: #048a16;
+    font-size: 20px;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  footer a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+  }
